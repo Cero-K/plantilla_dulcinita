@@ -1,0 +1,27 @@
+{
+  "name": "armando",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://armandoaepp@bitbucket.org/lifedigital/sistcofemicsa.git"
+  },
+  "author": "@armandoae",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/lifedigital/sistcofemicsa#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-install": "^0.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
+  },
+  "dependencies": {
+    "gulp-install": "^0.6.0"
+  }
+}
