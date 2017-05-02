@@ -1,0 +1,5 @@
+librerias(de terceros) utilizada para el desarrollo ()
+for example
+bootstrap css
+JQuery
+otras librerias(parrallax)... ext
