@@ -74,7 +74,7 @@
 		<img src="assets/images/imagen1.png" alt="" style="width: 75%; height: 55%">
 	</div>
 	<div id="texto_debajoImagen2">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, delectus modi dolorum nostrum illo magnam error commodi consectetur recusandae. Eaque quis sunt officiis nihil debitis consequatur atque nam ex voluptate.
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, delectus modi dolorum nostrum illo magnam error commodi consectetur recusandae. Eaque quis sunt officiis nihil debitis consequatur atque nam ex voluptate.
 	</div>
 </div>
 <div id="productos">
@@ -83,7 +83,7 @@
   <div id="imagen1_productos">
     IMAGEN
   </div>
-  <p id="parrafo3">Productos Dulcinita es una empresa con más de 20 años de creación fabricando productos gelatina para la industria de planificación, respostería y postres para el mercado</p>
+  <p id="parrafo3">Productos Dulcinita es una empresa con mas de 20 años de creación fabricando productos gelatina para la industria de planificación, respostería y postres para el mercado</p>
   <div id="imgenes_productos" class="container">
     <div class="row">
       <div class=".col-lg-6 col-md-6 col-sm-12 col-xs-12 imagenProductos" id="imagenProducto1">
