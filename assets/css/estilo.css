@@ -1,0 +1,196 @@
+#i2,#i3,#i4,#i5,#i6,#i7{
+	color: rgb(255,37,19);
+	font-size: 0.8em;
+	font-weight: bold;
+}
+#i21,#i31,#i41,#i51,#i61,#i71{
+	color: orange;
+	font-size: 0.6em;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+#nav-general{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*PANTALLA GRANDE*/
+@media (min-width: 1200px) { 
+  	
+	#i1{
+		display: none;
+	}
+}
+/*PANTALLA CHICA*/
+@media (max-width: 1200px) { 
+  	
+	#nav-general{
+		display: block;
+	}
+	#i11{
+		display: none;
+	}
+	#i21,#i31,#i41,#i51,#i61,#i71{
+		display: none;
+	}
+	#texto_debajoImagen2{
+		font-size: 0.7em;
+	}
+	#texto_debajoImagen1{
+		width: 20%;
+	}
+}
+#social-media{
+	margin-top: 5px;
+	background-color: red;
+	width: 80px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#facebook a, #twitter a, #youtube a{
+	color: white;
+}
+#facebook a:hover, #twitter a:hover, #youtube a:hover{
+	color: black;
+}
+#texto_debajoImagen{
+	width: 100%;
+	height: 100px;
+	background-color: rgb(255,37,19);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#texto_debajoImagen1{
+	width: 5%;
+	height: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#texto_debajoImagen2{
+	width: 50%;
+	height: 90%;
+	color: white;
+	text-align: right;
+	display: flex;
+	align-items: center;
+}
+#productos{
+	width: 100%;
+	background-color: rgb(255,248,240);
+}
+#parrafo1 {
+	font-family: fuente;
+	text-align: center; 
+	font-size: 4em; 
+	font-weight: bold;
+}
+#parrafo2 {
+	font-size: 1.5em;
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}
+#imagen1_productos{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#parrafo3{
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+/*estilo nuevo*/
+
+.imagenProductos{
+	
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	
+}
+.efecto{
+	width: 100%;
+    height: 92%;
+    background: linear-gradient(red, yellow);;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s, width 1s;
+}
+.efecto:hover {
+    opacity: 0.5;
+    width: 50%;
+    height: 92%;
+}
+.img{
+	
+	width: 100%;
+	
+}
+.boton{
+	position: absolute;
+	opacity: 0;
+	width: 33.2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	padding: 10px;
+	transition: opacity 1s;
+}
+.boton:hover{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 1;
+}
+.detalle{
+	color: red; 
+	text-decoration: none; 
+	font-size: 2em; 
+	font-weight: bold;
+}
+.detalle:hover{
+	color: red; 
+	text-decoration: none; 
+	font-size: 2em; 
+	font-weight: bold;
+}
+/* NUESTRAS MARCAS*/
+#nuestrasMarcas{
+	
+	width: 100%; 
+	border: solid 1px; 
+	background-color: red; 
+
+}
+#nuestrasMarcas_parrafo1{
+	text-align: center;
+	font-size: 2em;
+	color: white;
+}
+#nuestrasMarcas_parrafo2{
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+}
+
+/*FUENTES*/
+
+
+ 
+ 
+
+
+
