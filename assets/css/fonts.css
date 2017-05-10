@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'Brandon Text Bold';
+	src: url('../fonts/BrandonText-Bold.eot');
+	src: url('../fonts/BrandonText-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BrandonText-Bold.woff2') format('woff2'),
+		url('../fonts/BrandonText-Bold.woff') format('woff'),
+		url('../fonts/BrandonText-Bold.ttf') format('truetype'),
+		url('../fonts/BrandonText-Bold.svg#BrandonText-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Brandon Text Black';
+	src: url('../fonts/BrandonText-Black.eot');
+	src: url('../fonts/BrandonText-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BrandonText-Black.woff2') format('woff2'),
+		url('../fonts/BrandonText-Black.woff') format('woff'),
+		url('../fonts/BrandonText-Black.ttf') format('truetype'),
+		url('../fonts/BrandonText-Black.svg#BrandonText-Black') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Brandon Text';
+	src: url('../fonts/BrandonText-Regular.eot');
+	src: url('../fonts/BrandonText-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BrandonText-Regular.woff2') format('woff2'),
+		url('../fonts/BrandonText-Regular.woff') format('woff'),
+		url('../fonts/BrandonText-Regular.ttf') format('truetype'),
+		url('../fonts/BrandonText-Regular.svg#BrandonText-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.brandon-text-bold{
+	font-family: 'Brandon Text Bold';
+}
+.brandon-text-black{
+	font-family: 'Brandon Text Black';
+}
+.brandon-text{
+	font-family: 'Brandon Text';
+}

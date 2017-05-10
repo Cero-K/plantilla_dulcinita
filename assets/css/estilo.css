@@ -1,22 +1,8 @@
-#i2,#i3,#i4,#i5,#i6,#i7{
-	color: rgb(255,37,19);
-	font-size: 0.8em;
-	font-weight: bold;
-}
-#i21,#i31,#i41,#i51,#i61,#i71{
-	color: orange;
-	font-size: 0.6em;
-}
+
 body{
 	padding: 0;
 	margin: 0;
 }
-#nav-general{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 
 /*PANTALLA GRANDE*/
 @media (min-width: 1200px) { 
@@ -24,39 +10,77 @@ body{
 	#i1{
 		display: none;
 	}
+	#detalle1, #detalle2, #detalle3, #detalle4{
+		font-size: 0.8em;
+	}
+	#efecto1, #efecto2, #efecto3, #efecto4{
+		width: 90%;
+	    height: 85%;
+	    background: linear-gradient(red, red);;
+	    position: absolute;
+	    opacity: 0;
+	    transition: opacity 1s;
+	}
+	#efecto1:hover, #efecto2:hover, #efecto3:hover, #efecto4:hover {
+	    opacity: .15;
+	    width: 90%;
+	    height: 85%;
+	}
 }
+
+
+/*MEDIA QUERYS*/
+/*Dispositivos muy pequeños (MINIMO - 576px)*/
+@media (max-width: 575px) {
+	#detalle1, #detalle2, #detalle3, #detalle4{
+		font-size: 1.3em;
+	}
+}
+
+/*Dispositivos pequeños (576 - 767)*/
+@media (min-width: 576px) and (max-width: 767px) { 
+	#detalle1, #detalle2, #detalle3, #detalle4{
+		font-size: 1.3em;
+	}
+}
+
+/*Dispositivos medianos (768 - 991)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+	#detalle1, #detalle2, #detalle3, #detalle4{
+		font-size: 1.2em;
+	}
+}
+
+/*Dispositivos grandes (992 - 1199)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+	#detalle1, #detalle2, #detalle3, #detalle4{
+		font-size: 0.8em;
+	}
+}
+
+/*Dispositivos muy grandes(1200 - MAS)*/
+
+
+
 /*PANTALLA CHICA*/
+/* MENORES A 1200 */
 @media (max-width: 1200px) { 
-  	
-	#nav-general{
-		display: block;
-	}
-	#i11{
-		display: none;
-	}
-	#i21,#i31,#i41,#i51,#i61,#i71{
-		display: none;
-	}
 	#texto_debajoImagen2{
 		font-size: 0.7em;
 	}
 	#texto_debajoImagen1{
 		width: 20%;
 	}
+	#imagen{
+		height: 100px;
+	}
 }
-#social-media{
-	margin-top: 5px;
-	background-color: red;
-	width: 80px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-#facebook a, #twitter a, #youtube a{
-	color: white;
-}
+/**/
+
+
 #facebook a:hover, #twitter a:hover, #youtube a:hover{
 	color: black;
+	text-decoration:none; 
 }
 #texto_debajoImagen{
 	width: 100%;
@@ -111,13 +135,10 @@ body{
 /*estilo nuevo*/
 
 .imagenProductos{
-	
-	
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 15px;
-	
 }
 .efecto{
 	width: 100%;
