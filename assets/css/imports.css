@@ -1,6 +1,7 @@
 
 @import 'fonts.css';
 @import 'style.app.css';
+@import 'icons-dulcinita.css';
 
 /* STYLES LAYOUTS */
 @import 'layout/0.background.css';
@@ -12,8 +13,6 @@
 @import 'layout/5.promociones.css';
 @import 'layout/6.contact.css';
 @import 'layout/7.footer.css';
-
-
 
 
 

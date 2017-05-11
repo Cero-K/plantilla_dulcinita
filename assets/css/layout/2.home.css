@@ -1,8 +1,22 @@
 #home{
 	overflow: hidden;
-	height: 725px
+	height: 650px
 }
 
 .hr-home{
 	border-top: 3px solid #dd2a1b;
+	margin: 70px 0;
+}
+
+.leyend{
+	height: 280px
+}
+
+.text-leyend{
+	padding: 30px ;
+	padding-left: 50px ;
+}
+
+.leyend .cocinero{
+	color: #d4664d;
 }
