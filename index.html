@@ -4,20 +4,22 @@
 	<meta charset="UTF-8">
 	<title>Dulcinita</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/layout/fonts.css">
+  <!-- <link rel="stylesheet" href="assets/css/layout/fonts.css"> -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+
   <link rel="stylesheet" href="assets/css/estilo.css">
-  <link rel="stylesheet" href="assets/css/layout/fonts.css">
+  <!-- <link rel="stylesheet" href="assets/css/layout/fonts.css"> -->
   <link rel="stylesheet" href="assets/css/layout/1.menu.css">
   <link rel="stylesheet" href="assets/css/layout/2.imagenHome.css">
-   <link rel="stylesheet" href="assets/css/layout/3.texto_debajoDeImagen.css">
-   
-  
+  <link rel="stylesheet" href="assets/css/layout/3.texto_debajoDeImagen.css">
+  <link rel="stylesheet" href="assets/css/imports.css">
+
+
 </head>
 <body>
 <!-- 1.- Sección de MENÚ -->
-<nav class="navbar navbar-default" id="nav-general">
+<nav class="navbar navbar-default mg-none" id="nav-general">
     <div class="container-fluid" >
       <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -51,22 +53,22 @@
               <a href="#" class="item">productos</a></li>
             <li>
               <i class="fa fa-circle-thin hidden-xs hidden-sm hidden-md" aria-hidden="true"></i>
-            </li> 
+            </li>
             <li>
               <a href="#" class="item">recetas</a></li>
             <li>
               <i class="fa fa-circle-thin hidden-xs hidden-sm hidden-md" aria-hidden="true"></i>
-            </li> 
+            </li>
             <li>
               <a href="#" class="item">promociones</a></li>
             <li>
               <i class="fa fa-circle-thin hidden-xs hidden-sm hidden-md" aria-hidden="true"></i>
-            </li> 
+            </li>
             <li>
               <a href="#" class="item">clientes y<br/> proveedores</a></li>
             <li>
               <i class="fa fa-circle-thin hidden-xs hidden-sm hidden-md" aria-hidden="true"></i>
-            </li> 
+            </li>
             <li>
               <a href="#" class="item">contacto</a></li>
             <li>
@@ -74,11 +76,11 @@
                 <div>
                   <a href=""><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
                 </div>
-                
+
                 <div>
                   <a href=""><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
                 </div>
-                
+
                 <div>
                   <a href=""><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></a>
                 </div>
@@ -90,8 +92,27 @@
 </nav>
 <!-- Fin de la sección de MENÚ -->
 
+
+<!-- HOME  -->
+<div class="clear-both"></div>
+
+<section id="home"
+ class="col-md-12 centered-v  home" data-parallax="scroll" data-image-src="assets/images/home.jpg">
+   <h2 class="sr-only">Life Digital </h2>
+   <div class="container-fluid  padd-none vertical-center">
+      <div class="col-md-12 text-center">
+        <img src="assets/images/dulcinita.png" alt="">
+        <hr class="hr-home">
+        <h4 class="brandon-text-bold" > Los mejores productos de tu mesa </h4>
+      </div>
+   </div>
+   <br>
+</section>
+
+<div class="clear-both"></div>
+
 <!-- 2.- seccion IMAGEN -->
-<div id="imagen">
+<!-- <div id="imagen">
 	<img src="assets/images/home.jpg" alt="" id="cocinera">
   <div id="logo">
       <img src="assets/images/dulcinita.png" alt="">
@@ -102,13 +123,14 @@
   <div id="texto_sobreImagen" class="brandon-text-bold">
     <p>Los mejores productos de tu mesa</p>
   </div>
-</div>
+
+</div> -->
 <!-- FIN seccion IMAGEN -->
 
 <!-- 3.- seccion texto_debajoImagen -->
 <div id="texto_debajoImagen">
   <img src="assets/images/fondo_debajoDeImagen.jpg" alt="">
-	
+
   <div id="texto_debajoImagen1" >
 		<img src="assets/images/gorro_cheff.png" alt="">
 	</div>
@@ -163,8 +185,14 @@
   <p>Somos una empresa dedicada a la producción y distribución de abarrotes, pioneros e productos de repostería; siendo nuestra mayor preocupación la salud de nuestros consumidores así como la contribución a la calidad de cada insumo</p>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="plugins/parallax/parallax.min.js" ></script>
+
+    <script src="./assets/js/srcipt.parallax.js" ></script>
+
+
+
 </body>
 </html>
 <script>
