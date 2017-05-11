@@ -56,101 +56,12 @@ body{
 	}
 }
 
-/*Dispositivos muy grandes(1200 - MAS)*/
-
-
-
-
-
-
 #facebook a:hover, #twitter a:hover, #youtube a:hover{
 	color: black;
 	text-decoration:none; 
 }
 
-#productos{
-	width: 100%;
-	background-color: rgb(255,248,240);
-}
-#parrafo1 {
-	font-family: fuente;
-	text-align: center; 
-	font-size: 4em; 
-	font-weight: bold;
-}
-#parrafo2 {
-	font-size: 1.5em;
-	text-align: center;
-	color: red;
-	font-weight: bold;
-}
-#imagen1_productos{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-#parrafo3{
-	text-align: center;
-	padding-left: 20%;
-	padding-right: 20%;
-}
-/*estilo nuevo*/
 
-.imagenProductos{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 15px;
-}
-.efecto{
-	width: 100%;
-    height: 92%;
-    background: linear-gradient(red, yellow);;
-    position: absolute;
-    opacity: 0;
-    transition: opacity 1s, width 1s;
-}
-.efecto:hover {
-    opacity: 0.5;
-    width: 50%;
-    height: 92%;
-}
-.img{
-	
-	width: 100%;
-	
-}
-.boton{
-	position: absolute;
-	opacity: 0;
-	width: 33.2%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: white;
-	padding: 10px;
-	transition: opacity 1s;
-}
-.boton:hover{
-	position: absolute;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	opacity: 1;
-}
-.detalle{
-	color: red; 
-	text-decoration: none; 
-	font-size: 2em; 
-	font-weight: bold;
-}
-.detalle:hover{
-	color: red; 
-	text-decoration: none; 
-	font-size: 2em; 
-	font-weight: bold;
-}
 /* NUESTRAS MARCAS*/
 #nuestrasMarcas{
 	
@@ -169,12 +80,3 @@ body{
 	font-size: 1.5em;
 	color: white;
 }
-
-/*FUENTES*/
-
-
- 
- 
-
-
-
