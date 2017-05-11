@@ -1,142 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Dulcinita</title>
-
-	<link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
-
-	<link rel="stylesheet" href="./assets/css/fonts.css">
-	<link rel="stylesheet" href="./assets/css/layout/1.header.css">
-	<link rel="stylesheet" href="./assets/css/layout/contact.css">
-	<link rel="stylesheet" href="./assets/css//style.app.css">
- 
-
+	<meta charset="UTF-8">
+	<title>Dulcinita</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/layout/fonts.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/estilo.css">
+  <link rel="stylesheet" href="assets/css/layout/fonts.css">
+  <link rel="stylesheet" href="assets/css/layout/1.menu.css">
+  <link rel="stylesheet" href="assets/css/layout/2.imagenHome.css">
+   <link rel="stylesheet" href="assets/css/layout/3.texto_debajoDeImagen.css">
+   
+  
 </head>
 <body>
-
- <!-- Static navbar -->
-      <nav class="navbar navbar-default header">
-        <div class="container-fluid">
-          <div class="navbar-header header-image">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">
-				<img src="assets/images/dulcinita.png" alt="" class="logo" >
-            </a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-
-            <ul class="nav navbar-nav menu brandon-text-black">
-              <li class="active">
-	              <a href="#">Nosotros
-	              </a>
-	              	<i class="fa fa-circle-thin" aria-hidden="true"></i>
-              </li>
-
-              <li>
-	              <a href="#">Productos
-	              </a>
-	              	<i class="fa fa-circle-thin" aria-hidden="true"></i>
-              </li> 
-
-               <li>
-	              <a href="#">Recestas
-	              </a>
-	              	<i class="fa fa-circle-thin" aria-hidden="true"></i>
-              </li> 
-
-              <li>
-	              <a href="#">Promociones
-	              </a>
-	              	<i class="fa fa-circle-thin" aria-hidden="true"></i>
-              </li> 
-
-			  <li>
-	              <a href="#">Cliente y Proveedores
-	              </a>
-	              	<i class="fa fa-circle-thin" aria-hidden="true"></i>
-              </li> 
-
-              <li>
-	              <a href="#">Contacto
-	              </a>
-	              <i class="fa fa-circle-thin" aria-hidden="true"></i>
-              </li>
-            </ul>
-            
-            <ul class="social hidden-xs"> 
-	            <li>
-	            	<a href="">
-	            		<i class="fa fa-facebook" aria-hidden="true"></i>
-	            	</a>
-	            </li>
-	            <li>
-	            	<a href="">
-	            		<i class="fa fa-twitter" aria-hidden="true"></i>
-	            	</a>
-	            </li>
-	            <li>
-	            	<a href="">
-	            		<i class="fa fa-youtube-play" aria-hidden="true"></i>
-	            	</a>
-	            </li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
+<nav class="navbar navbar-default" id="nav-general">
+    <div class="container-fluid" >
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!--brand en pantalla pequeña -->
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/dulcinita.png" alt="">
+          </a>
+          <!-- Fin de brand en pantalla pequeña -->
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav brandon-text-black">
+            <li class="hidden-xs">
+              <!--Brand en pantalla grande -->
+              <a class="navbar-brand" href="#">
+            <img src="assets/images/dulcinita.png" id="imagenBrand" alt="" >
+              </a>
+              <!--Fin de brand en pantalla grande -->
+          </li>
+            <li>
+              <a href="#" class="item">nosotros</a>
+            </li>
+            <li>
+              <i class="fa fa-circle-thin hidden-xs hidden-sm hidden-md" aria-hidden="true"></i>
+            </li>
+            <li>
+              <a href="#" class="item">productos</a></li>
+            <li>
+              <i class="fa fa-circle-thin hidden-xs hidden-sm hidden-md" aria-hidden="true"></i>
+            </li> 
+            <li>
+              <a href="#" class="item">recetas</a></li>
+            <li>
+              <i class="fa fa-circle-thin hidden-xs hidden-sm hidden-md" aria-hidden="true"></i>
+            </li> 
+            <li>
+              <a href="#" class="item">promociones</a></li>
+            <li>
+              <i class="fa fa-circle-thin hidden-xs hidden-sm hidden-md" aria-hidden="true"></i>
+            </li> 
+            <li>
+              <a href="#" class="item">clientes y<br/> proveedores</a></li>
+            <li>
+              <i class="fa fa-circle-thin hidden-xs hidden-sm hidden-md" aria-hidden="true"></i>
+            </li> 
+            <li>
+              <a href="#" class="item">contacto</a></li>
+            <li>
+              <div id="social-media">
+                <div>
+                  <a href=""><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                </div>
+                
+                <div>
+                  <a href=""><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+                </div>
+                
+                <div>
+                  <a href=""><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </li>
+          </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
 
 
-	<!-- contactenos -->
+<!-- seccion IMAGEN -->
+<div id="imagen">
+	<img src="assets/images/home.jpg" alt="" id="cocinera">
+  <div id="logo">
+      <img src="assets/images/dulcinita.png" alt="">
+  </div>
+  <div>
+    <img src="assets/images/barra.png" alt="">
+  </div>
+  <div id="texto_sobreImagen" class="brandon-text-bold">
+    <p>Los mejores productos de tu mesa</p>
+  </div>
+</div>
+<!-- FIN seccion IMAGEN -->
 
-	<section class="contact">
-		<h2>
-			contactenos
-		</h2>
-		<h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat esse blanditiis   </h3>
+<!-- seccion texto_debajoImagen -->
+<div id="texto_debajoImagen">
+	<div id="texto_debajoImagen1" >
+  <img src="assets/images/capa_madera.png" alt="">
+		<img src="assets/images/gorro_cheff.png" alt="" style="width: 75%; height: 55%">
+	</div>
+	<div id="texto_debajoImagen2">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, delectus modi dolorum nostrum illo magnam error commodi consectetur recusandae.
+	</div>
+</div>
+<!-- FIN seccion texto_debajoImagen -->
 
-		<div class="col-md-6">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa modi nobis fugit deleniti explicabo illo, laudantium porro, cupiditate magnam accusamus inventore totam est aut! Excepturi itaque cum, fugiat beatae non.
-		</div>
-		<div class="col-md-6">
-			<form class="form-contact">
-			  <div class="form-group col-md-6">
-			    <label for="exampleInputEmail1"  >Email address</label>
-			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-			  </div>
-			  <div class="form-group col-md-6">
-			    <label for="exampleInputPassword1">Password</label>
-			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-			  </div>
+<div id="productos">
+  <p id="parrafo1">PRODUCTOS DULCINITA</p>
+  <p id="parrafo2">Lorem ipsum dolor sit amet, consectetur .</p>
+  <div id="imagen1_productos">
+    <img src="assets/images/imagen_ramas.png" alt="">
+  </div>
+  <p id="parrafo3">Productos Dulcinita es una empresa con mas de 20 años de creación fabricando productos gelatina para la industria de planificación respostería y postres para el mercado</p>
+  <div id="imgenes_productos" class="container">
+    <div class="row">
+      <div class=".col-lg-3 col-md-3 col-sm-12 col-xs-12 imagenProductos" id="imagenProducto1">
+        <img src="assets/images/imagen2.jpg" alt="" class="img">
+        <div class="efecto" id="efecto1"></div>
+        <div class="boton" id="boton1"><a href="" class="detalle" id="detalle1">Ver Detalle</a></div>
+      </div>
+      <div class=".col-lg-3 col-md-3 col-sm-12 col-xs-12 imagenProductos" id="imagenProducto2">
+        <img src="assets/images/imagen2.jpg" alt="" class="img">
+        <div class="efecto" id="efecto2"></div>
+        <div class="boton" id="boton2"><a href="" class="detalle" id="detalle2">Ver Detalle</a></div>
+      </div>
+      <!-- <div class="clearfix hidden-sm-up"></div> -->
 
-			   <div class="form-group col-md-6">
-			    <label for="exampleInputEmail1">Email address</label>
-			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-			  </div>
-			  <div class="form-group col-md-6">
-			    <label for="exampleInputPassword1">Password</label>
-			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-			  </div>
+      <div class=".col-lg-3 col-md-3 col-sm-12 col-xs-12 imagenProductos" id="imagenProducto3">
+        <img src="assets/images/imagen2.jpg" alt="" class="img">
+        <div class="efecto" id="efecto3"></div>
+        <div class="boton" id="boton3"><a href="" class="detalle" id="detalle3">Ver Detalle</a></div>
+      </div>
+      <div class=".col-lg-3 col-md-3 col-sm-12 col-xs-12 imagenProductos" id="imagenProducto4">
+        <img src="assets/images/imagen2.jpg" alt="" class="img">
+        <div class="efecto" id="efecto4"></div>
+        <div class="boton" id="boton4"><a href="" class="detalle" id="detalle4">Ver Detalle</a></div>
+      </div>
+    </div>
+  </div>
+</div>
 
-			  <div class="form-group col-md-12">
-			    <label for="mensaje">Adddd </label>
-			    <textarea name="mensaje" id="mensaje"  class="form-control" cols="30" rows="10"></textarea> 
-			  </div>
-			  
-			  
-			  
-			  <button type="submit" class="btn btn-default">Submit</button>
-			</form>
-		</div>
-	</section>
-  
+<div id="nuestrasMarcas">
+  <p id="nuestrasMarcas_parrafo1">NUESTRAS MARCAS.</p>
+  <p id="nuestrasMarcas_parrafo2">Lorem ipsum dolor sit amet </p>
+  <div id="imagen_nuestrasMarcas">
+    <img src="assets/images/imagen_ramas.png" alt="">
+  </div>
+  <p>Somos una empresa dedicada a la producción y distribución de abarrotes, pioneros e productos de repostería; siendo nuestra mayor preocupación la salud de nuestros consumidores así como la contribución a la calidad de cada insumo</p>
+</div>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
+<script>
+$("#imagenProducto1").mouseenter(function(evento){
+   $("#boton1").css("color", "white");
+   $("#boton1").css("opacity", "1");
+});
+$("#boton1").mouseenter(function(e){
+   $("#boton1").css("opacity", "1");
+});
+$("#imagenProducto1").mouseleave(function(e){
+   $("#boton1").css("opacity", "0");
+});
+
+$("#imagenProducto2").mouseenter(function(evento){
+   $("#boton2").css("color", "white");
+   $("#boton2").css("opacity", "1");
+});
+$("#boton2").mouseenter(function(e){
+   $("#boton2").css("opacity", "1");
+});
+$("#imagenProducto2").mouseleave(function(e){
+   $("#boton2").css("opacity", "0");
+});
+
+$("#imagenProducto3").mouseenter(function(evento){
+   $("#boton3").css("color", "white");
+   $("#boton3").css("opacity", "1");
+});
+$("#boton3").mouseenter(function(e){
+   $("#boton3").css("opacity", "1");
+});
+$("#imagenProducto3").mouseleave(function(e){
+   $("#boton3").css("opacity", "0");
+});
+
+$("#imagenProducto4").mouseenter(function(evento){
+   $("#boton4").css("color", "white");
+   $("#boton4").css("opacity", "1");
+});
+$("#boton4").mouseenter(function(e){
+   $("#boton4").css("opacity", "1");
+});
+$("#imagenProducto4").mouseleave(function(e){
+   $("#boton4").css("opacity", "0");
+})
+
+</script>
+<!-- /.EL EXCESO DE PESTAÑAS HACE QUE NO SE VEA BIEN EL ESTILO RESPONSIVO -->
+
