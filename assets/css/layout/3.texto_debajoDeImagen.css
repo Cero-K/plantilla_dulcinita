@@ -1,12 +1,12 @@
 /* MENORES A 1200 */
-/*@media (max-width: 1200px) { 
-	#texto_debajoImagen2{
-		font-size: 0.7em;
-	}
+@media (max-width: 600px) { 
 	#texto_debajoImagen1{
 		width: 20%;
 	}
-}*/
+	#texto_debajoImagen2 p{
+		font-size: 20px;
+	}
+}
 #texto_debajoImagen{
 	width: 100%;
 	height: 280px;
@@ -26,6 +26,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+#texto_debajoImagen1 img{
+	width: 100px; 
+	height: 125px
 }
 #texto_debajoImagen2{
 	width: 50%;
