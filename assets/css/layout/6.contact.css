@@ -1,10 +1,104 @@
-.contact{
-	background-color: #444 ;
-	overflow: hidden;
+ .contact{
+    margin-top: 80px;
+    width: 100%;
+    height: 811px;
+    border:solid 2px;
+    background-color: #444;
+}
+.contact h2{
+    color: #fbf7f2;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-top: 76px;
+
+}
+.icono-ramas{
+margin-top: 52px;
+display: inline-flex;justify-content: center;
+/*width: 100%;*/
 }
 
+.contact h3{
+    color: #be2e21;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 44px;
+}
+.socialContact{
+    margin-top: 110px;
+}
+.socialContact li {
+    font-size: 26px;
+    margin-bottom: 0px;
+    list-style: none;
+
+}
+.socialContact li a i{
+    color: #d1d1d1;
+}
+/*Social Contaco */
+.social {
+    /*margin: 15px auto;*/
+    background-color: #444;
+    margin-top: -20px;
+    margin-left: 174px;
+}
+.xxx{
+    color: #dd2a1b;
+    text-transform: uppercase;
+    font-size:25px; 
+}
+.social ul {
+    margin-top: 17px;
+}
+.social ul > li {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+.social p{
+}
+.social a {
+    background-size: 100% 200%;
+    border-radius: 50%;
+    display: inline-block;
+    height: 30px;
+    position: relative;
+    transition: all 0.2s linear 0s;
+    width: 30px;
+}
+.social a:hover {
+    background-position: 0 -100%;
+}
+
+.social .black a {
+    border: 1px solid #6a737d;
+    color: #424e5a;
+    background-color: #6a737d;
+}
+.social .black a:hover {
+    color: #424e5a;
+    background-color: #00bfe8 ;
+
+}
+/*Para el formulario*/
+.fila1{
+margin-top:61px;
+}
+.fila1 div label {
+font-size:26px ;
+color: #969696;
+}
+.fila2 div label {
+font-size:26px ;
+color: #969696;
+}
+.fila3 div label {
+font-size:26px ;
+color: #969696;
+}
 .form-contact label{
-	  padding-left: 30px;
+      padding-left: 30px;
 }
 
 .form-control { 
