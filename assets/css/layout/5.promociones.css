@@ -1,0 +1,15 @@
+.promociones{
+	height: 1365px;
+	background-color: #faf5ee;
+	text-transform: uppercase;
+	text-align: center;
+}
+.promociones_parrafo1 p{
+	font-size: 60px;
+	color: #3a3a3a;
+	
+}
+.promociones_parrafo2 p{
+	font-size: 36px;
+	color: #be2e21;
+}
