@@ -46,7 +46,6 @@ $("#slider div").click(function(){
 		console.log('Indice derecha: '+(indiceDerechaFinal));
 		$("#descripcion"+indiceDerechaFinal).css("width", "100%");
 		$("#descripcion"+indiceDerechaFinal).fadeIn(1000);
-		
 		$("#descripcion div").not("#descripcion"+indiceDerechaFinal).css("display", "none");
 	}
 	

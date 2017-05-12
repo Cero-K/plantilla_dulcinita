@@ -29,11 +29,13 @@
   color: #ffffff;
   font-size: 26px;
   text-align: center;
+  margin-top: 65px;
 }
 .slider{
   /*width: 100%;*/
   height: 60%;
   border: solid 1px yellow;
+  margin-top: 90px;
 }
 /* START SECCION SLIDER*/
 .imagen1{
@@ -59,8 +61,8 @@
 }
 
 #contenedor_slider{
-  height: 500px;
-  width: 100%;
+  height: 640px;
+  width: 1285px;
   border: solid 1px;
   display: flex;
 }
@@ -76,7 +78,7 @@
 }
 #descripcion{
   width: 100%;
-  height: 55%;
+  height: 63%;
   border: solid 1px;
   display: flex;
 }
@@ -85,6 +87,22 @@
   width: 100%;
   background-color: #fffaf3;
   width: 100%;
+}
+.titulo-descripcion{
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-left: 86px;
+  margin-top: 45px;
+}
+.subtitulo-descripcion{
+  font-size: 26px;
+  color: #be2e21;
+  margin-left: 86px;
+}
+.parrafo-descripcion{
+  font-size: 26px;
+  margin-left: 86px;
+  color: #868686;
 }
 .item-descripcion{
   height: 100%;
@@ -112,16 +130,17 @@
 }
 #slider{
   width: 100%;
-  height: 45%;
+  height: 37%;
   border: solid 1px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: rgb(249,237,228);
+
 }
 #flecha_izquierda, #flecha_derecha{
-  height: 16%;
-  width: 5%;
+  height: 47px;
+  width: 47px;
   cursor: pointer;
   border: solid 5px;
   border-radius: 50%;
@@ -133,8 +152,6 @@
   transition: opacity 100s, background-color 0.5s, border-color 0.5s, border 1.3s ;
 }
 #flecha_izquierda:hover, #flecha_derecha:hover{
-  height: 16%;
-  width: 5%;
   cursor: pointer;
   border: solid 5px;
   border-radius: 50%;
@@ -147,8 +164,8 @@
   
 }
 #imagen1_slider{
-  height: 70%;
-  width: 20%;
+  height: 170px;
+  width: 170px;
   border: solid 5px;
   border-color: white;
   border-radius: 50%;
@@ -159,8 +176,8 @@
     animation-duration: 2s;
 }
 #imagen2_slider{
-  height: 70%;
-  width: 20%;
+  height: 170px;
+  width: 170px;
   border: solid 5px;
   border-color: white;
   border-radius: 50%;
