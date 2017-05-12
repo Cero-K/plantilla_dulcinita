@@ -4,7 +4,6 @@
   height: 1260px;
 }
 .cabecera-marcas{
-  border: solid 1px white;
   height: 30%;
 }
 .titulo1-seccion{
@@ -18,6 +17,7 @@
   color: #fffaf3;
   font-size: 36px;
   margin-top: 55px;
+  margin-bottom: 40px;
 }
 .centered{
   text-align: center;
@@ -30,19 +30,40 @@
   font-size: 26px;
   text-align: center;
   margin-top: 65px;
+  margin-bottom: 90px;
 }
+.btn-marcas{
+  height: 65px;
+  width: 220px;
+  background-color: #dd2a1b;
+  color: #ffffff;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-left: 211px;
+  margin-top: 25px;
+}
+.btn-marcas:hover{
+  color: #ffffff;
+}
+
+/*.boton-marcas a{
+  text-decoration: none;
+}
+.link{
+  text-decoration: none;
+  color: #ffffff;
+}*/
 .slider{
-  /*width: 100%;*/
-  height: 60%;
-  border: solid 1px yellow;
-  margin-top: 90px;
+  margin-top: 140px;
+  height: 640px;
+  width: 1285px;
+  display: flex;
 }
 /* START SECCION SLIDER*/
 .imagen1{
   background-image: url(../../images/imagenes-slider/1.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  
 }
 .imagen2{
   background-image: url(../../images/imagenes-slider/2.jpg);
@@ -59,27 +80,17 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-
-#contenedor_slider{
-  height: 640px;
-  width: 1285px;
-  border: solid 1px;
-  display: flex;
-}
 #panel_imagen{
   width: 50%;
   height: 100%;
-  border: solid 1px;
 }
 #panel_izquierda{
   width: 50%;
   height: 100%;
-  border: solid 1px;
 }
 #descripcion{
   width: 100%;
   height: 63%;
-  border: solid 1px;
   display: flex;
 }
 #descripcion1{
@@ -131,7 +142,6 @@
 #slider{
   width: 100%;
   height: 37%;
-  border: solid 1px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -151,6 +161,10 @@
   opacity: 0.5;
   transition: opacity 100s, background-color 0.5s, border-color 0.5s, border 1.3s ;
 }
+#flecha_izquierda i, #flecha_derecha i{
+  margin-left: 30%;
+  margin-top: 10%;
+}
 #flecha_izquierda:hover, #flecha_derecha:hover{
   cursor: pointer;
   border: solid 5px;
@@ -160,7 +174,7 @@
   background-color: red;
   color: white;
   opacity: 1;
-  box-shadow: 1px 1px 50px white; 
+  /*box-shadow: 1px 1px 50px white; */
   
 }
 #imagen1_slider{
@@ -184,7 +198,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 @keyframes opacidad {
@@ -195,3 +208,4 @@
       opacity:1;
     }
 }
+/*iniciamos con 184 lineas*/

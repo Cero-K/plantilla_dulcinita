@@ -20,16 +20,7 @@ $("#slider div").click(function(){
 			indiceIzquierdaFinal = 1;
 		}
 		console.log('EL indiceIzquierdaFinal es: '+indiceIzquierdaFinal);
-		// $("#descripcion"+indiceIzquierdaFinal).css("width", "100%");
-		// $("#descripcion"+indiceIzquierdaFinal).fadeIn(1000);
-
 		$("#descripcion"+indiceIzquierdaFinal).fadeIn( 1000, function() {
-		    // $( this )
-		    //   	.css( "border", "2px red inset" )
-		    //   	.filter( ".middle" )
-		    //     .css( "background", "yellow" )
-		    //     .focus();
-		    // $( "div" ).css( "visibility", "hidden" );
 		    $(".imagen1").css('opacity','1');
 		});
 		
@@ -128,7 +119,6 @@ function activarSlider() {
 		indice_aux1 = 0;
 	}
 	if(indice_aux1!=3){
-
 		$('#imagen1_slider').removeClass();
 		$('#imagen1_slider').addClass('imagen'+(++indice_aux1));
 		$('#panel_imagen').removeClass();
