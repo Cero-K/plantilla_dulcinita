@@ -6,16 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-
-
   <link rel="stylesheet" href="assets/css/imports.css">
   
-  <link rel="stylesheet" href="assets/css/layout/5.promociones.css">
+  <!-- <link rel="stylesheet" href="assets/css/layout/5.promociones.css"> -->
 
 
  
 </head>
-<body>
+<body onload="inicializarSlider()">
 <!-- 1.- Sección de MENÚ -->
 <nav class="navbar navbar-default mg-none" id="nav-general">
     <div class="container-fluid" >
@@ -91,7 +89,7 @@
 <!-- Fin de la sección de MENÚ -->
 
 
-<!-- HOME  -->
+<!-- - - - - - - - - - - - - - - - - - - - - - HOME  - - - - - - - - - - - - - - - - - - - - - - -->
 <div class="clear-both"></div>
 
 <section id="home" class="col-md-12 centered-v  home" data-parallax="scroll" data-image-src="assets/images/home.jpg">
@@ -120,18 +118,18 @@
    </div>
 </section>
 
-<!-- Productos  -->
+<!--  - - - - - - - - - - - - - - - - - - - Productos  - - - - - - - - - - - - - - - - - - - - - -->
 <div class="clear-both"></div>
 <section id="productos" class="col-md-12 centered-v  productos"  >
 
    <div class="container container-fluid  padd-none text-center">
 
-    <h2 class="brandon-text-bold title text-mayusc fs-2x-lg"> Productos Dulcinita  </h2>
+    <h2 class="brandon-text-bold titulo2-seccion"> Productos Dulcinita  </h2>
     <h4 class="brandon-text-bold color-dul fs-2x "> Lorem ipsum ad his scripta blandit partiendo, eum</h4>
 
     <div class="col-md-10 centered">
         <i class="icon-rama fs-2x color-bebe icons-bebe"></i>
-        <p class="parrafo  ">
+        <p class="parrafo">
           Productos Dulcinita es una empresa con mas de 20 años de creación fabricando productos gelatina para la industria de planificación respostería y postres para el mercado
         </p>
     </div>
@@ -213,101 +211,76 @@
    </div>
 </section>
 
-<!-- Marcas  -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - Marcas  - - - - - - - - - - - - -  - - - - - - - - - - - -  -->
 <div class="clear-both"></div>
-<section id="marcas" class="col-md-12 centered-v marcas "  >
-   <div class="container container-fluid  padd-none text-center color-white">
+<section class="col-md-12 marcas">
+  <div class="cabecera-marcas">
+    <p class="brandon-text-bold titulo1-seccion">nuestras marcas</p>
+    <p class="brandon-text-bold subtitulo1-seccion"> 
+      Lorem ipsum ad his scripta blandit partiendo, eum
+    </p>
 
-    <h2 class="brandon-text-bold title text-mayusc fs-2x-lg"> Marcas  </h2>
-    <h4 class="brandon-text-bold fs-2x "> Lorem ipsum ad his scripta blandit partiendo, eum</h4>
-
-    <div class="col-md-11 centered">
-        <i class="icon-rama fs-2x color-bebe icons-bebe"></i>
-        <p class="parrafo  ">
-          Somos una empresa dedicada a la producción y distribución de abarrotes, pioneros e productos de repostería; siendo nuestra mayor preocupación la salud de nuestros consumidores así como la contribución a la calidad de cada insumo
+     <div class="col-md-10 centered">
+        <i class="icon-rama fs-2x color-rama"></i>
+        <p class="parrafoMarcas  brandon-text">
+          Somos una empresa dedicada a la producción y distribución de abarrotes, pioneros en productos de repostería; siendo nuestra mayor preocupación la salud de nuestros consumidores así como la contribución a la calidad de cada insumo.
         </p>
     </div>
-
-    <div class="col-md-12">
-    <div class="container-fluid">
-    <div id="custom_carousel" class="carousel slide" data-ride="carousel" data-interval="2500">
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-3"><img src="http://placehold.it/350x250" class="img-responsive"></div>
-                        <div class="col-md-9">
-                            <h2>Slide 1</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-3"><img src="http://placehold.it/350x250" class="img-responsive"></div>
-                        <div class="col-md-9">
-                            <h2>Slide 2</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-3"><img src="http://placehold.it/350x250" class="img-responsive"></div>
-                        <div class="col-md-9">
-                            <h2>Slide 4</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-3"><img src="http://placehold.it/350x250" class="img-responsive"></div>
-                        <div class="col-md-9">
-                            <h2>Slide 3</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <!-- End Item -->
-        </div>
-        <!-- End Carousel Inner -->
-        <div class="controls">
-            <ul class="nav">
-                <li data-target="#custom_carousel" data-slide-to="0" class="active"><a href="#"><img src="http://placehold.it/50x50"><small>Slide One</small></a></li>
-                <li data-target="#custom_carousel" data-slide-to="1"><a href="#"><img src="http://placehold.it/50x50"><small>Slide Two</small></a></li>
-                <li data-target="#custom_carousel" data-slide-to="2"><a href="#"><img src="http://placehold.it/50x50"><small>Slide Three</small></a></li>
-                <li data-target="#custom_carousel" data-slide-to="3"><a href="#"><img src="http://placehold.it/50x50"><small>Slide Four</small></a></li>
-                <li data-target="#custom_carousel" data-slide-to="3"><a href="#"><img src="http://placehold.it/50x50"><small>Slide Four</small></a></li>
-                <li data-target="#custom_carousel" data-slide-to="3"><a href="#"><img src="http://placehold.it/50x50"><small>Slide Four</small></a></li>
-                <li data-target="#custom_carousel" data-slide-to="3"><a href="#"><img src="http://placehold.it/50x50"><small>Slide Four</small></a></li>
-            </ul>
-        </div>
-
-         <a data-slide="prev" href="#custom_carousel" class="left carousel-control">‹</a>
-        <a data-slide="next" href="#custom_carousel" class="right carousel-control">›</a>
-    </div>
-    <!-- End Carousel -->
   </div>
 
-    </div>
-
-
-
-   </div>
+  <div class="slider " id="contenedor_slider" onmouseover="prueba()">
+      <div id="panel_imagen" class="imagen1">
+      </div>
+      <div id="panel_izquierda">
+        <div id="descripcion">
+          <div id="descripcion1">
+            <p>azúcar finita</p>
+            <p>Lorem ipsum </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit dolorem porro in. Sint ab unde pariatur dicta, odit mollitia voluptates libero eaque numquam nulla, voluptatem, modi explicabo facere. Perferendis, harum?</p>
+            <button>ver mas</button>
+          </div>
+          <div id="descripcion2" class="item-descripcion container">
+            <p>gelatina</p>
+            <p>Lorem ipsum </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit dolorem porro in. Sint ab unde pariatur dicta, odit mollitia voluptates libero eaque numquam nulla, voluptatem, modi explicabo facere. Perferendis, harum?</p>
+            <button>ver mas</button>
+          </div>
+          <div id="descripcion3" class="item-descripcion">
+            <p>mazamorra</p>
+            <p>Lorem ipsum </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit dolorem porro in. Sint ab unde pariatur dicta, odit mollitia voluptates libero eaque numquam nulla, voluptatem, modi explicabo facere. Perferendis, harum?</p>
+            <button>ver mas</button>
+          </div>
+          <div id="descripcion4" class="item-descripcion">
+            <p>otro</p>
+            <p>Lorem ipsum </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit dolorem porro in. Sint ab unde pariatur dicta, odit mollitia voluptates libero eaque numquam nulla, voluptatem, modi explicabo facere. Perferendis, harum?</p>
+            <button>ver mas</button>
+          </div>
+        </div>
+        <div id="slider">
+          <div id="flecha_izquierda" class="flecha_izquierda" >
+            <!-- <p class="icon-chevron-left" style="margin-left: 25%; margin-top: 50%"></p> -->
+            <i class="fa fa-chevron-left" aria-hidden="true" style="margin-left: 25%; margin-top: 10%"></i>
+          </div>
+          <div id="imagen1_slider" class="imagen1">
+            
+          </div>
+          <div id="imagen2_slider" class="imagen2">
+            
+          </div>
+          <div id="flecha_derecha" class="flecha_derecha">
+            <!-- <p class="icon-chevron-right" style="margin-left: 25%; margin-top: 50%"></p> -->
+            <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left: 25%; margin-top: 10%"></i>
+          </div>
+        </div>
+      </div>
+  </div>
 </section>
 
  
 
-<div class="clear-both"></div>
+<!-- <div class="clear-both"></div> -->
 
 
 
@@ -321,7 +294,7 @@
   </section>
 
   <div id="imagen1_productos">
-    <img src="assets/images/imagen_ramas.png" alt="">
+    <!-- <img src="assets/images/imagen_ramas.png" alt=""> -->
   </div>
 </section>
 <!-- FIN SECCIÓN PROMOCIONES -->
@@ -430,6 +403,7 @@
 <script src="plugins/parallax/parallax.min.js" ></script>
 
     <script src="./assets/js/srcipt.parallax.js" ></script>
+    <script src="assets/js/script.slider.js" ></script>
 
     <script>
     $(document).ready(function(ev){

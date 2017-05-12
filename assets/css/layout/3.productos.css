@@ -1,6 +1,12 @@
 .productos{
 	padding-top: 70px;
 }
+.titulo2-seccion{
+  text-align: center;
+  color: #000000;
+  font-size: 60px;
+  text-transform: uppercase;
+}
 
 .productos .icons-bebe
 {
@@ -10,7 +16,7 @@
 
 .productos .parrafo{
 	color: #565656;
-	font-size: 18px;
+	font-size: 26px;
 }
 
 
