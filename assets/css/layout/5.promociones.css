@@ -1,9 +1,10 @@
 .seccion-promociones{
 	/*height: 1365px;*/
-	/*background-color: #faf5ee;*/
+	background-color: #faf5ee;
 
 /*	text-transform: uppercase;*/
-	text-align: center;
+	/*text-align: center;*/
+	
 }
 .promociones_parrafo1 p{
 	font-size: 60px;
@@ -17,7 +18,6 @@
 .slider-promociones{
 	height: 950px;
 	width: 100%;
-	border: solid 1px;
 }
 
 /*ESTILOS NUEVOS*/
@@ -25,7 +25,6 @@
 .promociones{
 	width: 100%;
 	height: 900px;
-	border: solid 1px ;
 }
 #btn-prev-promociones, #btn-next-promociones{
 	height: 16%;
@@ -56,21 +55,19 @@
 /*SLIDER 1*/
 #contenedor-slider1-promociones{
 	width: 100%;
-	height: 60%;
-	background-color: pink;
+	height: 70%;
+	background-color: #f9f4ed;
   	overflow: hidden;
 }
 .slider1-promociones {
   display: flex;
   width: 400%;
-  border: solid 1px;
   height: 100%;
 }
 .slider__section1-promociones {
   width: 100%;
   display: flex;
   justify-content: center;
-  border: solid 1px red;
 }
 .slider__section1-promociones img {
   width: 100%;
@@ -80,10 +77,9 @@
 
 
 .carrusel-promociones{
-	height: 40%;
+	height: 30%;
 	width: 100%;
-	border: solid 1px;
-	background-color: #ddd;
+	background-color: #f9f4ed;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -162,7 +158,7 @@
 	justify-content: space-around;
 	align-items: center;
 	border: solid 1px;
-	background-color: #ddd;
+	background-color: #f9f4ed;
 	padding-left: 50px;
 	padding-right: 50px;
 }
@@ -171,7 +167,7 @@
 #contenedor_slider5-promociones{
 /*	height: 70%;
 	width: 20%;*/
-	border: solid 5px red;
+	border: solid 5px;
 
 	overflow: hidden;
 }
@@ -192,7 +188,7 @@
 #contenedor_slider6-promociones{
 /*	height: 70%;
 	width: 20%;*/
-	border: solid 5px blue;
+	border: solid 5px;
 
 	overflow: hidden;
 }
@@ -213,7 +209,7 @@
 #contenedor_slider7-promociones{
 /*	height: 70%;
 	width: 20%;*/
-	border: solid 5px olive;
+	border: solid 5px;
 
 	overflow: hidden;
 }
@@ -238,6 +234,7 @@
 }
 .imagen-descripcion{
 	width: 60%;
+	background-color: yellow;
 }
 .titulo-descripcion-promociones{
 	color: #000000;
@@ -251,6 +248,26 @@
 .texto-descripcion-promociones{
 	font-size: 26px;
 	color: #000000;
+	margin-top: 40px;
+}
+.precio-antes{
+	margin-top: 60px;
+	font-size: 26px;
+	color: #be2e21;
+}
+.precio-ahora{
+	font-size: 40px;
+	margin-top: 45px;
+}
+.btn-promociones{
+  height: 65px;
+  width: 220px;
+  background-color: #dd2a1b;
+  color: #ffffff;
+  font-size: 24px;
+  text-transform: uppercase;
+  /*margin-left: 211px;*/
+  margin-top: 25px;
 }
 
 
