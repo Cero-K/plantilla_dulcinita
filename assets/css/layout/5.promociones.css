@@ -1,27 +1,23 @@
 .seccion-promociones{
-	/*height: 1365px;*/
 	background-color: #faf5ee;
-
-/*	text-transform: uppercase;*/
-	/*text-align: center;*/
-	
 }
 .promociones_parrafo1 p{
 	font-size: 60px;
 	color: #3a3a3a;
 	line-height: 150px;
+	text-transform: uppercase;
+	text-align: center;
 }
 .promociones_parrafo2 p{
 	font-size: 36px;
 	color: #be2e21;
+	text-align: center;
 }
 .slider-promociones{
 	height: 950px;
 	width: 100%;
 }
-
 /*ESTILOS NUEVOS*/
-
 .promociones{
 	width: 100%;
 	height: 900px;
@@ -73,9 +69,6 @@
   width: 100%;
   height: 100%;
 }
-
-
-
 .carrusel-promociones{
 	height: 30%;
 	width: 100%;
@@ -84,7 +77,6 @@
 	justify-content: space-around;
 	align-items: center;
 }
-
 /*slider 2*/
 #contenedor_slider2-promociones{
 	height: 70%;
@@ -157,18 +149,17 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	border: solid 1px;
+	/*border: solid 1px;*/
 	background-color: #f9f4ed;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: #be2e21;
+	font-size: 25px;
 }
 
 /*SLIDER 5*/
 #contenedor_slider5-promociones{
-/*	height: 70%;
-	width: 20%;*/
-	border: solid 5px;
-
+	/*border: solid 5px;*/
 	overflow: hidden;
 }
 .slider5-promociones {
@@ -186,10 +177,7 @@
 }
 /*SLIDER 6*/
 #contenedor_slider6-promociones{
-/*	height: 70%;
-	width: 20%;*/
-	border: solid 5px;
-
+	/*border: solid 5px;*/
 	overflow: hidden;
 }
 .slider6-promociones {
@@ -207,10 +195,7 @@
 }
 /*SLIDER 7*/
 #contenedor_slider7-promociones{
-/*	height: 70%;
-	width: 20%;*/
-	border: solid 5px;
-
+	/*border: solid 5px;*/
 	overflow: hidden;
 }
 .slider7-promociones {
@@ -269,7 +254,3 @@
   /*margin-left: 211px;*/
   margin-top: 25px;
 }
-
-
-
-
