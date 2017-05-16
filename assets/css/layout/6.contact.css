@@ -1,113 +1,136 @@
- .contact{
-    margin-top: 80px;
+  .contacto{
+    margin-top: 0px;
     width: 100%;
-    height: 811px;
-    border:solid 2px;
-    background-color: #444;
+    height: 813px;
+    border:solid 1px;   
+    color: black;
+    background-color: #353535;
 }
-.contact h2{
+.main div h2{
+    margin-top: 61px;
+    font-size:60px;
     color: #fbf7f2;
-    text-align: center;
     text-transform: uppercase;
-    font-size: 60px;
-    margin-top: 76px;
-
+    text-align: center;
 }
-.icono-ramas{
-margin-top: 52px;
-display: inline-flex;justify-content: center;
-/*width: 100%;*/
-}
-
-.contact h3{
+.fila2 div h6{
+    margin-top: 10px;
     color: #be2e21;
-    text-align: center;
     font-size: 36px;
-    margin-top: 44px;
+    text-align: center;
 }
-.socialContact{
-    margin-top: 110px;
+.fila3 div{
+    margin-top: 15px;
+    color: #939291;
+    display: inline-flex;
+    justify-content: center;
 }
-.socialContact li {
-    font-size: 26px;
-    margin-bottom: 0px;
-    list-style: none;
-
+.fila4a p{
+margin-right: 15px;
 }
-.socialContact li a i{
-    color: #d1d1d1;
+.fila4b p{
+margin-right: 15px;
 }
-/*Social Contaco */
-.social {
-    /*margin: 15px auto;*/
-    background-color: #444;
-    margin-top: -20px;
-    margin-left: 174px;
+.fila4c p{
+margin-right: 15px;
 }
-.xxx{
+.fila4a{
+    color: #e2e2e2;
+    display: inline-flex;
+    justify-content: center;
+}
+.fila4a h5{
+    color: #e2e2e2;
+    font-size: 20px;
+}
+.fila4b{
+    color: #e2e2e2;
+    display: inline-flex;
+    justify-content: center;
+}
+.fila4b h5{
+    color: #e2e2e2;
+    font-size: 20px;
+}
+.fila4c{
+    color: #e2e2e2;
+    display: inline-flex;
+    justify-content: center;
+}
+.fila4c h5{
+    color: #e2e2e2;
+    font-size: 20px;
+}
+/*Formulario*/
+.group label h6{
+    color: #e2e2e2;
+    font-size: 20px;
+}
+.group input{
+    background-color: #353535;
+}
+.group textarea{
+ background-color: #353535;   
+} 
+.facebook{
+    color: #e2e2e2;
+    border: 2px solid #e2e2e2;
+    font-size: 30px ;
+    padding-left:.3em;
+    top: .1em;
+}
+#buttonlogintoregister{
+    background-color: #353535;
+    border-color: #353535;
+    border:solid 1px;
+}
+.twitter,.youtube{
+    color: #b5372f;
+    border: 2px solid #b5372f;
+    font-size: 30px;
+    padding-left: .3em;
+    top: .1em;
+}
+.social{
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: #353535;
+}
+.social h6{
     color: #dd2a1b;
+    font-size:20px;
     text-transform: uppercase;
-    font-size:25px; 
 }
-.social ul {
-    margin-top: 17px;
-}
-.social ul > li {
-    margin-left: 2.5px;
-    margin-right: 2.5px;
-}
-.social p{
-}
-.social a {
-    background-size: 100% 200%;
+
+.social a{
     border-radius: 50%;
-    display: inline-block;
-    height: 30px;
-    position: relative;
-    transition: all 0.2s linear 0s;
-    width: 30px;
-}
-.social a:hover {
-    background-position: 0 -100%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.social .black a {
-    border: 1px solid #6a737d;
-    color: #424e5a;
-    background-color: #6a737d;
-}
-.social .black a:hover {
-    color: #424e5a;
-    background-color: #00bfe8 ;
-
-}
-/*Para el formulario*/
-.fila1{
-margin-top:61px;
-}
-.fila1 div label {
-font-size:26px ;
-color: #969696;
-}
-.fila2 div label {
-font-size:26px ;
-color: #969696;
-}
-.fila3 div label {
-font-size:26px ;
-color: #969696;
-}
-.form-contact label{
-      padding-left: 30px;
-}
-
-.form-control { 
-    background-color: #444; 
-    border: 1px solid #ccc; 
-    
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+/*media querys*/
+@media only screen and (max-width: 500px) {
+    .contacto{
+       margin-top: -950px;
+    }
+    .main div h2 ,.fila2 div h6{
+       font-size: 20px;
+       margin-top: 15px;
+    }
+    .fila2 div  h6{
+        margin-top: -5px;
+    }
+    .fila4a  h5 ,.fila4b h5 , .fila4c  h5 , .social h6{
+       font-size: 15px;
+       margin-top: 8px;
+    }
+    .fila3  div{
+        margin-top: -17px;
+    }
+    .social  h6{
+        margin-top: -28px;
+    }
+    .group label h6{
+       font-size: 12px;
+    }
 }
