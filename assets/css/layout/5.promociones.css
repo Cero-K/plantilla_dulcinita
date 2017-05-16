@@ -1,4 +1,4 @@
-.promociones{
+.seccion-promociones{
 	/*height: 1365px;*/
 	/*background-color: #faf5ee;*/
 
@@ -18,6 +18,143 @@
 	height: 950px;
 	width: 100%;
 	border: solid 1px;
+}
+
+/*ESTILOS NUEVOS*/
+
+.promociones{
+	width: 100%;
+	height: 900px;
+	border: solid 1px ;
+}
+#btn-prev-promociones, #btn-next-promociones{
+	height: 16%;
+	width: 5%;
+	cursor: pointer;
+	border: solid 5px;
+	border-radius: 50%;
+	border-color: red;
+	display: flex;
+	align-items: center;
+	color: red;
+	opacity: 0.5;
+	transition: opacity 100s, background-color 0.5s, border-color 0.5s, border 1.3s ;
+}
+#btn-prev-promociones:hover, #btn-next-promociones:hover{
+	height: 16%;
+	width: 5%;
+	cursor: pointer;
+	border: solid 5px;
+	border-radius: 50%;
+	border-color: white;
+	text-align: center;
+	background-color: red;
+	color: white;
+	opacity: 1;
+	box-shadow: 1px 1px 50px white; 
+}
+/*SLIDER 1*/
+#contenedor-slider1-promociones{
+	width: 100%;
+	height: 60%;
+	background-color: pink;
+  	overflow: hidden;
+}
+.slider1-promociones {
+  display: flex;
+  width: 400%;
+  border: solid 1px;
+  height: 100%;
+}
+.slider__section1-promociones {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: solid 1px red;
+}
+.slider__section1-promociones img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.carrusel-promociones{
+	height: 40%;
+	width: 100%;
+	border: solid 1px;
+	background-color: #ddd;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/*slider 2*/
+#contenedor_slider2-promociones{
+	height: 70%;
+	width: 20%;
+	border: solid 5px;
+	border-color: white;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.slider2-promociones {
+  display: flex;
+  width: 400%;
+}
+.slider__section2-promociones {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.slider__section2-promociones img {
+  width: 100%;
+  height: 100%;
+}
+/*slider 3*/
+#contenedor_slider3-promociones{
+	height: 70%;
+	width: 20%;
+	border: solid 5px;
+	border-color: white;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.slider3-promociones {
+  display: flex;
+  width: 400%;
+}
+.slider__section3-promociones{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.slider__section3-promociones img {
+  width: 100%;
+  height: 100%;
+}
+
+/*slider 4*/
+#contenedor_slider4-promociones{
+	height: 70%;
+	width: 20%;
+	border: solid 5px;
+	border-color: white;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.slider4-promociones {
+  display: flex;
+  width: 400%;
+}
+.slider__section4-promociones{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.slider__section4-promociones img {
+  width: 100%;
+  height: 100%;
 }
 
 
