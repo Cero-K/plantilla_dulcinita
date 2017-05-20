@@ -135,4 +135,29 @@
 	-webkit-transform: scale(1,1);
 			transform: scale(1,1);
 }
+/*media querys*/
+@media only screen and (max-width: 500px) {
+    .productos h2{
+     font-size: 15px;
+     margin-top: -60px;
+    }
+    .productos h4{
+    	font-size: 15px;	
+    }
+    .productos .parrafo{
+	font-size: 15px;
+	margin-top: -20px;
+	}
+	.nd-wrap h3{
+		font-size: 15px;
+		margin-top: -1px;
+	}
+	.nd-wrap img{
+	width: 100%;
+	display: block;
+	height: 180px;
+	border-top: 10px solid #be2e21;
+	margin-top: -10px;
+	}
+}
 

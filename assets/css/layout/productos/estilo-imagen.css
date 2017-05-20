@@ -3,19 +3,22 @@
 .nd-wrap {
 	overflow: hidden;
 	text-align: center;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	position: relative;
 	display: inline-block;
 }
 .nd-wrap img {
-	/*width: 350px;*/
+	/*width: 450px;*/
+	width: 100%;
+	height: 100%;
 	display: block;
+	margin-left: 0px;
 }
 .nd-title {
 	position: relative;		
 	top: -150px;
 	opacity: 0;
-	margin: 0 0 30px;
+	/*margin: 0 0 30px;*/
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	-webkit-transition: all 1s ease 0.01s;
@@ -23,7 +26,7 @@
 }
 .nd-title span {
 	color: #fff;	
-	padding: 0 20px 15px;
+	/*padding: 0 20px 15px;*/
 	border-bottom: 1px solid #ccc;
 	display: inline-block;
 }
@@ -31,7 +34,7 @@
     color: #000;
     display: inline-block;
     font-size: 25px;
-    margin: 0 5px;
+    /*margin: 0 5px;*/
     opacity: 0;
     position: relative;
 	cursor: pointer;
@@ -87,7 +90,8 @@
 			transition: all 0.5s cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.01s;
 }
 .nd-wrap:hover .nd-content {
-	background: rgba(0, 0, 0, 0.5);
+	/*background: rgba(0, 0, 0, 0.5);*/
+	background: rgba(255, 0, 0, 0.5);
 }
 /* =============== SET DELAY FOR ICONS WHEN HOVER =============== */
 .nd-content .nd-icon:nth-of-type(1) {	
@@ -107,47 +111,7 @@
 			transition-delay: 0.25s;
 }
 /* ============================== HOVER STYLE ============================== */
-/* =============== STYLE 1 =============== */
-.nd-style-1 .nd-icon {
-	top: 150px;
-}
-/* =============== STYLE 2 =============== */
-.nd-style-2 .nd-icon {
-	-webkit-transform: scale(0,0);
-			transform: scale(0,0);
-}
-.nd-wrap.nd-style-2:hover .nd-icon {
-	-webkit-transform: scale(1,1);
-			transform: scale(1,1);
-}
-/* =============== STYLE 3 =============== */
-.nd-style-3 .nd-icon {
-	-webkit-transform: rotate(180deg);
-			transform: rotate(180deg);
-}
-.nd-wrap.nd-style-3:hover .nd-icon {
-	-webkit-transform: rotate(360deg);
-			transform: rotate(360deg);
-}
-/* =============== STYLE 4 =============== */
-.nd-style-4 .nd-icon {
-	-webkit-transform: scale(1.5,1.5);
-			transform: scale(1.5,1.5);
-}
-.nd-wrap.nd-style-4:hover .nd-icon {
-	-webkit-transform: scale(1,1);
-			transform: scale(1,1);
-}
-/* =============== STYLE 5 =============== */
-.nd-wrap.nd-style-5:hover .nd-title {
-	-webkit-transition: all 0.5s ease 0.01s;
-			transition: all 0.5s ease 0.01s;
-}
-.nd-style-5 .nd-icon {
-	top: 150px;
-	-webkit-transition-timing-function: ease;
-			transition-timing-function: ease;
-}
+
 /* =============== STYLE 6 =============== */
 .nd-wrap.nd-style-6:hover .nd-title {
 	-webkit-transition: all 0.5s ease 0.01s;
@@ -162,34 +126,4 @@
 .nd-wrap.nd-style-6:hover .nd-icon {
 	-webkit-transform: scale(1,1);
 			transform: scale(1,1);
-}
-/* =============== STYLE 7 =============== */
-.nd-wrap.nd-style-7:hover .nd-title {
-	-webkit-transition: all 0.5s ease 0.01s;
-			transition: all 0.5s ease 0.01s;
-}
-.nd-style-7 .nd-icon {
-	-webkit-transform: scale(1.5,1.5);
-			transform: scale(1.5,1.5);
-	-webkit-transition-timing-function: ease;
-			transition-timing-function: ease;
-}
-.nd-wrap.nd-style-7:hover .nd-icon {
-	-webkit-transform: scale(1,1);
-			transform: scale(1,1);
-}
-/* =============== STYLE 8 =============== */
-.nd-wrap.nd-style-8:hover .nd-title {
-	-webkit-transition: all 0.5s ease 0.01s;
-			transition: all 0.5s ease 0.01s;
-}
-.nd-style-8 .nd-icon {
-	-webkit-transform: rotate(180deg) scale(1.5,1.5);
-			transform: rotate(180deg) scale(1.5,1.5);
-	-webkit-transition-timing-function: ease;
-			transition-timing-function: ease;
-}
-.nd-wrap.nd-style-8:hover .nd-icon {
-	-webkit-transform: rotate(360deg) scale(1,1);
-			transform: rotate(360deg) scale(1,1);
 }
