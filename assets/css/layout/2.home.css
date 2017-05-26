@@ -5,7 +5,7 @@
 
 .hr-home{
 	border-top: 3px solid #dd2a1b;
-	margin: 70px 0;
+	margin: 60px 0;
 }
 
 .leyend{
@@ -13,10 +13,44 @@
 }
 
 .text-leyend{
-	padding: 30px ;
-	padding-left: 50px ;
+	/*padding: 30px ;*/
+	/*padding-left: 50px ;*/
 }
 
 .leyend .cocinero{
 	color: #d4664d;
+	text-align: right;
+}
+.cocinero span{
+	width: 120px;
+}
+.slogan-home{
+	font-size: 30px;
+}
+.texto1-home{
+	font-size: 28px;
+}
+.texto2-home{
+	font-size: 36px;
+}
+
+@media (max-width: 575px) {
+	.img-dulcinita{
+		width: 20em;
+	}
+	.hr-home{
+		margin: 20px 0;
+	}
+	.slogan-home{
+		font-size: 20px;
+	}
+	.texto1-home, .texto2-home{
+		font-size: .8em;
+	}
+	.leyend{
+		height: 180px;
+	}
+	.cocinero span{
+		width: 90px;
+	}
 }

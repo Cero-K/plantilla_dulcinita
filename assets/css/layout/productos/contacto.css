@@ -2,7 +2,7 @@
     margin-top: 10px;
     width: 100%;
     height: 813px;
-    border:solid 1px;   
+    border:solid 0px;   
     color: black;
     background-color: #353535;
     /*background-color: red;*/
@@ -78,7 +78,7 @@ margin-right: 15px;
 #buttonlogintoregister{
     background-color: #353535;
     border-color: #353535;
-    border:solid 1px;
+    border:solid 0px;
 }
 .facebook, .twitter,.youtube{
     color: #b5372f;
@@ -116,6 +116,7 @@ margin-right: 15px;
 @media only screen and (max-width: 500px) {
     .contacto{
        margin-top: 0px;
+       height: 850px;
     }
     .main div h2 ,.fila2 div h6{
        font-size: 15px;
@@ -138,6 +139,14 @@ margin-right: 15px;
        font-size: 12px;
     }
 }
+/*(992 - 1199)*/
+@media (min-width: 498px) and (max-width: 1000px) {
+    .contacto{
+        height: 1200px;
+    }
+}
+
+
 
 .social-media-prueba{
     display: flex;

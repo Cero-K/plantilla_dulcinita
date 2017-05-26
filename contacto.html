@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
           </button>
           <!--brand en pantalla pequeña -->
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.html">
             <img src="assets/images/dulcinita.png" alt="">
           </a>
           <!-- Fin de brand en pantalla pequeña -->
@@ -36,7 +36,7 @@
           <ul class="nav navbar-nav brandon-text-black">
             <li class="hidden-xs">
               <!--Brand en pantalla grande -->
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="index.html">
             <img src="assets/images/dulcinita.png" id="imagenBrand" alt="" >
               </a>
               <!--Fin de brand en pantalla grande -->
@@ -209,64 +209,32 @@
 
 <!--Inicio Footer-->
 <div class="clear-both"></div>
-<footer class="footerprincipal">
-        <div class="container">
-            <div class="footerfila1" row>
-                <div class="col-md-2">
-                      <div class="item-footer brandon-text"><a href="">nosotros</a></div>
-                </div>
-                <div class="col-md-2">
-                      <div class="item-footer brandon-text"><a href="">productos</a></div>
-                </div>
-                <div class="col-md-2">
-                      <div class="item-footer brandon-text"><a href="">recetas</a></div>
-                </div>
-                <div class="col-md-2">
-                      <div class="item-footer brandon-text"><a href="">promociones</a></div>
-                </div>
-                <div class="col-md-2">
-                      <div class="item-footer brandon-text"><a href="">contacto</a></div>
-                </div>
-            </div>
-            <div class="footerfila2">
-                <div class=" col-xs-12 col-md-12">
-                    <div class="logo-footer">
-                    <img src="assets/images/life.png" alt="">
-                    </div>
-                </div>            
-            </div>
-        </div>
-        <div class="footerfila3">
-            <div class="copyright-footer">
-                    Todos los Derechos Reservados de Dulcinita 2017
-            </div>
-        </div>
-</footer>
+  <section class="footerf col-md-12">
+    <section class="items-footerf col-md-12">
+      <section class="item-footer col-md-1 col-md-offset-1 col-sm-12 col-xs-12"><a href="conocenos.html">nosotros</a></section>
+      <i class="fa fa-circle-thin hidden-xs hidden-sm  col-md-1" aria-hidden="true"></i>
+      <section class="item-footer col-md-1 col-sm-12 col-xs-12"><a href="productos.html">poductos</a></section>
+      <i class="fa fa-circle-thin hidden-xs hidden-sm  col-md-1" aria-hidden="true"></i>
+      <section class="item-footer col-md-1 col-sm-12 col-xs-12"><a href="tips.html">recetas</a></section>
+      <i class="fa fa-circle-thin hidden-xs hidden-sm  col-md-1" aria-hidden="true"></i>
+      <section class="item-footer col-md-1 col-sm-12 col-xs-12"><a href="promociones.html">promociones</a></section>
+      <i class="fa fa-circle-thin hidden-xs hidden-sm  col-md-1" aria-hidden="true"></i>
+      <section class="item-footer col-md-1 col-sm-12 col-xs-12"><a href="contacto.html">contacto</a></section>
+      <i class="fa fa-circle-thin hidden-xs hidden-sm  col-md-1" aria-hidden="true" style="opacity: 0">o</i>
+    </section>
+    <section class="logo-footerf col-md-12 col-sm-12 col-xs-12">
+      <img src="life.png" alt="">
+    </section>
+    <section class="copyright-footerf col-md-12 col-sm-12 col-xs-12">
+      Todos los derechos reservados de Dulcinita 2017
+    </section>
+  </section>
 <!--Fin Footer-->
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="plugins/parallax/parallax.min.js" ></script>
 
     <script src="./assets/js/srcipt.parallax.js" ></script>
-
-    <script>
-    $(document).ready(function(ev){
-
-      $('#custom_carousel').on('slide.bs.carousel', function (evt) {
-        $('#custom_carousel .controls li.active').removeClass('active');
-        $('#custom_carousel .controls li:eq('+$(evt.relatedTarget).index()+')').addClass('active');
-      }) ;
-
-       $('#custom_carousel').carousel({
-        pause: true,
-        interval: false,
-      });
-  });
-
-
-    </script>
-
 </body>
 </html>

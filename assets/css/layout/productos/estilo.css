@@ -4,7 +4,7 @@
     /*background-color: blue;*/
     /*height: 100px;*/
     color: red;
-    border:solid 1px;
+    border:solid 0px;
 
 }
 .texto-navegador{
@@ -98,10 +98,6 @@
     display: none;
 }
 /*fin de detalle productos*/
-
-
-
-
 .prueba{
     height: 100%;
     /*background-color: #fdf8f1;*/

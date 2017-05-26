@@ -9,7 +9,7 @@
 	text-align: center;
 }
 .productosx .container{
-    border:solid 1px;
+    border:solid 0px;
     color: white;
 }
 .main div h4{    
@@ -46,7 +46,7 @@
 .container{
     margin-top: 0px;   
     background-color: #f4efe9;
-    border:solid 1px;
+    border:solid 0px;
     color: black;
 }
 .texto-navegador{

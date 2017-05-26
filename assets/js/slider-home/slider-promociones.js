@@ -147,4 +147,4 @@ prevPromociones.on('click',function() {
 });
 
 
-autoplay_promociones();
+// autoplay_promociones();
