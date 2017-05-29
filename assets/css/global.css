@@ -1,0 +1,25 @@
+.head-section{
+	text-align: center;
+
+}
+.titulo-seccion{
+	font-size: 60px;
+	margin-bottom: 0px;
+	margin-top: 65px;
+	text-transform: uppercase;
+}
+.subtitulo-seccion{
+	font-size: 36px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	margin-bottom: 50px;
+}
+.rama{
+	margin-bottom: 60px;
+}
+.negro{
+	color: #000000;
+}
+.rojo{
+	color: #be2e21;
+}

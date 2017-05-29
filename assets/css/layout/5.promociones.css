@@ -280,3 +280,8 @@ div.green {
     margin-top: 10px;
   }
 }
+@media (min-width: 102px) and (max-width: 1000px) {
+   .promociones_parrafo1 p{
+      font-size: 45px;
+    }
+}

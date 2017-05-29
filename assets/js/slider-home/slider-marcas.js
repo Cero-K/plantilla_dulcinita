@@ -80,7 +80,7 @@ function moverIzquierda() {
 function autoplay() {
 	interval = setInterval(function(){
 		moverDerecha();
-	}, 5000);
+	}, 7000);
 }
 
 siguiente.on('click',function() {

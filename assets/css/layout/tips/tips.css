@@ -1,3 +1,86 @@
+.contenedor-video{
+	display: flex;
+	justify-content: center;
+	background-color: #be2e21;
+}
+.video{
+	height: 380px;
+	width: 825px;
+	background-color: #be2e21;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.video iframe{
+	width: 100%;
+	height: 100%;
+}
+.imagenes-video{
+	max-height: 800px;
+	vertical-align: middle;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: hidden;
+	background-color: #faf5ee;
+	padding-top: 80px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 80px;
+}
+.wrap-imagen1, .wrap-imagen2{
+	width: 660px;
+	height: 330px;
+	background-color: #ddd;
+	margin-top: 15px;
+	margin-bottom: 7.5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.imagen1{
+	background-image: url(../../../images/tips/1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;	
+}
+.imagen1-hover{
+	background-image: url(../../../images/tips/1-hover.jpg);
+	height: 100%;
+	width: 100%;	
+}
+.imagen2{
+	background-image: url(../../../images/tips/2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+.imagen2-hover{
+	background-image: url(../../../images/tips/2-hover.jpg);
+	height: 100%;
+	width: 100%;
+}
+.manito{
+	cursor: pointer;
+}
+@media only screen and (min-width: 1800px) {
+ 	.imagenes-video{
+		max-height: 800px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.wrap-imagen1{
+		margin-left: initial;
+	}
+	.wrap-imagen2{
+		margin-right: initial;
+	}
+}
 .promociones{
 	margin-top: 0px;
 	width: 100%;
@@ -19,12 +102,11 @@
 }
 .fila3 div{
 	margin-top: 45px;
-    display: inline-flex;justify-content: center;
-
+    display: inline-flex;
+    justify-content: center;
 }
 @media only screen and (max-width: 991px) {/*746*/
 	.promociones{
-	/*height: 1170px;*/
 	border:solid 0px;
 	color: blue;
 	}
@@ -39,22 +121,13 @@
 }
 @media (min-width: 747px) and (max-width: 991px){
 	.promociones{
-	/*height: 1100px;*/
 	border:solid 0px;
 	color: red;
 	}
 }
 @media (min-width: 992px) and (max-width: 1235px){
 	.promociones{
-	/*height: 1400px;*/
 	border:solid 0px;
 	color: blue;
 	} 
 }
-
-
-
-
-
-
-

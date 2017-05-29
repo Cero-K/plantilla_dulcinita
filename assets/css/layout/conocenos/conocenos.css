@@ -1,18 +1,31 @@
-.productos{
+/*.productos{
 	margin-top: 0px;
 	width: 100%;
 	height: 1120px;
-	/*border:solid 2px;*/
-	/*color: black;*/
 	background-color:  #fcf7f0;
 	text-align: center;
+}*/
+.conocenos-content{
+  margin-top: 0px;
+  width: 100%;
+  height: 1120px;
 }
-.main div h4{    
+.titulo-conocenos{
+  font-size: 30px;
+  color: #be2e21;
+  margin-bottom: 40px;
+  
+}
+.parrafo-conocenos{
+  font-size: 26px;
+  margin-bottom: 60px;
+}
+/*.main div h4{    
 	margin-top: 50px;
 	font-size:60px;
-    color: #000000;
-    text-transform: uppercase;
-    text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
 }
 .fila2 div h1{
   margin-top: 10px;
@@ -21,12 +34,12 @@
 }
 .fila3 div{
   margin-top: 45px;
-    display: inline-flex;justify-content: center;
-
+  display: inline-flex;
+  justify-content: center;
 }
-.fila4 div h6, .fila5 div h6, .fila6 div h6{
-  margin-top: 10px;
-    color: #e0ddd7;
+.fila4 div ,h6 .fila5 div h6, .fila6 div h6{
+    margin-top: 10px;
+    color: #000000;
     font-size: 26px;
     text-align: justify;
 }
@@ -34,37 +47,35 @@
   color:#be2e21;
   font-size: 30px;
   text-align: left;
-}
+}*/
 
 /*@media (min-width: 328px) and (max-width:500px) {*/
-@media (min-width:266px) and (max-width: 289px) {/*500*/
+/*@media (min-width:266px) and (max-width: 289px) {
   .productos{
-  height: 1350px;
-  border:solid 0px;
-  color: red;
-  /*text-align: center;*/
+    height: 1350px;
+    border:solid 0px;
+    color: red;
   }
-    .main div h4 {
-       font-size: 20px;
-       margin-top: 5px;
-    }
-    .fila2 div h1 {
-       font-size: 20px;
-       margin-top: -2px;
-    }
-    .fila4 div h6, .fila5 div h6, .fila6 div h6 {
-       font-size: 20px;
-    }
-    .fila5 h4, .fila6  h4{
-       font-size: 20px;
-    }
+  .main div h4 {
+     font-size: 20px;
+     margin-top: 5px;
+  }
+  .fila2 div h1 {
+     font-size: 20px;
+     margin-top: -2px;
+  }
+  .fila4 div h6, .fila5 div h6, .fila6 div h6 {
+     font-size: 20px;
+  }
+  .fila5 h4, .fila6  h4{
+     font-size: 20px;
+  }
 }
-@media (min-width:290px) and (max-width: 300px) {/*500*/
+@media (min-width:290px) and (max-width: 300px) {
   .productos{
   height: 1238px;
   border:solid 0px;
   color: blue;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -81,34 +92,32 @@
        font-size: 20px;
     }
 }
-@media (min-width:301px) and (max-width: 310px) {/*500*/
+@media (min-width:301px) and (max-width: 310px) {
   .productos{
-  height: 1225px;
-  border:solid 0px;
-  color: red;
-  /*text-align: center;*/
+    height: 1225px;
+    border:solid 0px;
+    color: red;
   }
-    .main div h4 {
-       font-size: 20px;
-       margin-top: 5px;
-    }
-    .fila2 div h1 {
-       font-size: 20px;
-       margin-top: -2px;
-    }
-    .fila4 div h6, .fila5 div h6, .fila6 div h6 {
-       font-size: 20px;
-    }
-    .fila5 h4, .fila6  h4{
-       font-size: 20px;
-    }
+  .main div h4 {
+     font-size: 20px;
+     margin-top: 5px;
+  }
+  .fila2 div h1 {
+     font-size: 20px;
+     margin-top: -2px;
+  }
+  .fila4 div h6, .fila5 div h6, .fila6 div h6 {
+     font-size: 20px;
+  }
+  .fila5 h4, .fila6  h4{
+     font-size: 20px;
+  }
 }
-@media (min-width:311px) and (max-width: 322px) {/*500*/
+@media (min-width:311px) and (max-width: 322px) {
   .productos{
   height: 1115px;
   border:solid 0px;
   color: blue;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -125,12 +134,11 @@
        font-size: 20px;
     }
 }
-@media (min-width:323px) and (max-width: 324px) {/*500*/
+@media (min-width:323px) and (max-width: 324px) {
   .productos{
-  height: 1190px;
-  border:solid 0px;
-  color: red;
-  /*text-align: center;*/
+    height: 1190px;
+    border:solid 0px;
+    color: red;
   }
     .main div h4 {
        font-size: 20px;
@@ -147,12 +155,11 @@
        font-size: 20px;
     }
 }
-@media (min-width:325px) and (max-width: 333px) {/*500*/
+@media (min-width:325px) and (max-width: 333px) {
   .productos{
   height: 1100px;
   border:solid 0px;
   color: blue;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -170,12 +177,11 @@
     }
 }
 
-@media (min-width:334px) and (max-width: 360px) {/*500*/
+@media (min-width:334px) and (max-width: 360px) {
   .productos{
   height: 1165px;
   border:solid 0px;
   color: blue;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -193,12 +199,11 @@
     }
 }
 
-@media (min-width:361px) and (max-width: 384px) {/*500*/
+@media (min-width:361px) and (max-width: 384px) {
   .productos{
   height: 1120px;
   border:solid 0px;
   color: red;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -215,12 +220,11 @@
        font-size: 20px;
     }
 }
-@media (min-width:385px) and (max-width: 386px) {/*500*/
+@media (min-width:385px) and (max-width: 386px) {
   .productos{
   height: 1169px;
   border:solid 0px;
   color: blue;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -237,12 +241,11 @@
        font-size: 20px;
     }
 }
-@media (min-width:387px) and (max-width: 397px) {/*500*/
+@media (min-width:387px) and (max-width: 397px) {
   .productos{
   height: 1110px;
   border:solid 0px;
   color: red;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -259,12 +262,11 @@
        font-size: 20px;
     }
 }
-@media (min-width:398px) and (max-width: 424px) {/*500*/
+@media (min-width:398px) and (max-width: 424px) {
   .productos{
   height: 1100px;
   border:solid 0px;
   color: blue;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -282,12 +284,11 @@
     }
 }
 
-@media (min-width:425px) and (max-width: 430px) {/*500*/
+@media (min-width:425px) and (max-width: 430px) {
   .productos{
   height: 860px;
   border:solid 0px;
   color: red;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -304,12 +305,11 @@
        font-size: 20px;
     }
 }
-@media (min-width:431px) and (max-width: 445px) {/*500*/
+@media (min-width:431px) and (max-width: 445px) {
   .productos{
   height: 790px;
   border:solid 0px;
   color: blue;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -326,12 +326,11 @@
        font-size: 20px;
     }
 }
-@media (min-width:446px) and (max-width: 500px) {/*500*/
+@media (min-width:446px) and (max-width: 500px) {
   .productos{
   height: 770px;
   border:solid 0px;
   color: red;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -348,12 +347,11 @@
        font-size: 20px;
     }
 }
-@media (min-width:501px) and (max-width: 503px) {/*500*/
+@media (min-width:501px) and (max-width: 503px) {
   .productos{
   height: 1170px;
   border:solid 0px;
   color: blue;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -370,12 +368,11 @@
        font-size: 20px;
     }
 }
-@media (min-width:504px) and (max-width: 515px) {/*500*/
+@media (min-width:504px) and (max-width: 515px) {
   .productos{
   height: 1120px;
   border:solid 0px;
   color: red;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -392,12 +389,11 @@
        font-size: 20px;
     }
 }
-@media (min-width:516px) and (max-width: 576px) {/*500*/
+@media (min-width:516px) and (max-width: 576px) {
   .productos{
   height: 1100px;
   border:solid 0px;
   color: blue;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -414,12 +410,11 @@
        font-size: 20px;
     }
 }
-@media (min-width:577px) and (max-width: 596px) {/*500*/
+@media (min-width:577px) and (max-width: 596px) {
   .productos{
   height: 1060px;
   border:solid 0px;
   color: red;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -436,12 +431,11 @@
        font-size: 20px;
     }
 }
-@media (min-width:597px) and (max-width: 767px) {/*500*/
+@media (min-width:597px) and (max-width: 767px) {
   .productos{
   height: 1020px;
   border:solid 0px;
   color: blue;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -458,12 +452,11 @@
        font-size: 20px;
     }
 }
-@media (min-width:768px) and (max-width: 991px) {/*500*/
+@media (min-width:768px) and (max-width: 991px) {
   .productos{
   height: 940px;
   border:solid 0px;
   color: red;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -480,12 +473,11 @@
        font-size: 20px;
     }
 }
-@media (min-width:992px) and (max-width: 1199px) {/*500*/
+@media (min-width:992px) and (max-width: 1199px) {
   .productos{
   height: 915px;
   border:solid 0px;
   color: blue;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -502,12 +494,11 @@
        font-size: 20px;
     }
 }
-@media (min-width:1200px) and (max-width: 1250px) {/*500*/
+@media (min-width:1200px) and (max-width: 1250px) {
   .productos{
   height: 900px;
   border:solid 0px;
   color: blue;
-  /*text-align: center;*/
   }
     .main div h4 {
        font-size: 20px;
@@ -523,4 +514,4 @@
     .fila5 h4, .fila6  h4{
        font-size: 20px;
     }
-}
+}*/
